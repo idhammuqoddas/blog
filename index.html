@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html>  
+   <head> 
+      <meta charset = "utf-8"> 
+      <title>...</title> 
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+      <link rel="stylesheet" href="katex/dist/katex.css">
+      <script src="bootstrap/js/bootstrap.bundle.js"></script>
+      <script defer src="mathjax/tex-mml-chtml.js"></script>
+      <script src="katex/dist/katex.js"></script>
+      <script src="scripthead.js"></script>
+      <script src="matematikin.js"></script>
+   </head> 
+     <body>
+        <div class="container">
+           <div id="tes"></div>
+      <script>
+         var tes = teksSederhanakanAkar(10);
+         var isi = String.raw`<m>${tes[0]}${tes[2]}${tes[1]}${tes[3]}</m>`
+         document.getElementById("tes").innerHTML=String.raw`<m>${tes}</m>`</script>
+
+   </div>
+   </body>
+   <script defer src="scriptfoot.js"></script>
+</html> 
