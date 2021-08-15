@@ -1,0 +1,36 @@
+GRID (ketik jumlah kolom terus enter)
+div.row>div.col*
+
+MEDIA (ketik 1 terus enter)
+div.media>img.mr-3[src]>div.media-body>h5.mt-0*
+
+KOTAK RUMUS (ketik 1 terus enter)
+div.card>(div.card-header.bg-primary[role="tab"][style="padding: 0em;"]>button.btn.btn-primary.btn-block[type="button"]>b{judul})+div[role="tabpanel"]>div.card-body.flo{isi}+div.card-footer.font-weight-bold{Keterangan:}*
+
+PENYELESAIAN (ketik 1 terus enter)
+(button.btn.btn-success.tbl[type="button"]>b{Alternatif Penyelesaian})+div.card>div.collapse.hide.isi[role="tabpanel"]>div.card-body.flo{isi}+div.card-footer.font-weight-bold>table.table.table-borderless.foot>tbody>tr>(td.align-middle{Jadi, }>br+b{JAWAB: })+td.align-middle>button.btn.btn-dark.float-end.tutup[type="button"]>b{Tutup}*
+
+PILIHAN GANDA TANPA TOMBOL (ketik 1 terus enter)
+div.row>(div.col>ol.pas1[type="A"]>(li>m{A})+(li>m{B})+(li>m{C}))+div.col>ol.pas1[start="4" type="A"]>(li>m{D})+li>m{E}*
+div.row>(div.col>ol.pas1[type="A"]>(li>m{A})+(li>m{B}))+div.col>ol.pas1[start="3" type="A"]>(li>m{C})+li>m{D}*
+
+PILIHAN GANDA DENGAN GAP
+div.row>(div.col>ol.pas1[type="A"]>(li.pb-3>m{A})+(li.pb-3>m{B})+(li>m{C}))+div.col>ol.pas1[start="4" type="A"]>(li.pb-3>m{D})+li>m{E}*
+div.row>(div.col>ol.pas1[type="A"]>(li.pb-3>m{A})+(li.pb-3>m{B}))+div.col>ol.pas1[start="3" type="A"]>(li.pb-3>m{C})+li>m{D}*
+
+TIPE
+- Standar
+div#linktipe>table>tbody>tr>(td>h3{Tipe: })+(td>ul.pagination[style="margin-left:0em"]>(li#navstandar.page-item.active.d-none>span#standar.page-link{Standar})+(li#navsbmptn.page-item.d-none>a#sbmptn.page-link[href="#"]{SBMPTN})+(li#navhots.page-item.d-none>a#hots.page-link[href="#"]{HOTS}))*
+-SBMPTN
+div#linktipe>table>tbody>tr>(td>h3{Tipe: })+(td>ul.pagination[style="margin-left:0em"]>(li#navstandar.page-item.d-none>a#standar.page-link[href="#"]{Standar})+(li#navsbmptn.page-item.active.d-none>span#sbmptn.page-link{SBMPTN})+(li#navhots.page-item.d-none>a#hots.page-link[href="#"]{HOTS}))*
+-HOTS
+div#linktipe>table>tbody>tr>(td>h3{Tipe: })+(td>ul.pagination[style="margin-left:0em"]>(li#navstandar.page-item.d-none>a#standar.page-link[href="#"]{Standar})+(li#navsbmptn.page-item.d-none>a#sbmptn.page-link[href="#"]{SBMPTN})+(li#navhots.page-item.active.d-none>span#hots.page-link{HOTS}))*
+
+PAKET NOMOR
+div.text-justify#>br+(h3{No. }>span.badge.bg-danger.nomor)+{soal}+(div.blockquote-footer.text-end.pt-2>a[href="#" target="_blank"]{SUMBER})+(button.btn.btn-success.tbl[type="button"]>b{Alternatif Penyelesaian})+div.card>div.collapse.hide.isi[role="tabpanel"]>div.card-body.flo{isi}+div.card-footer.font-weight-bold>table.table.table-borderless.foot>tbody>tr>(td.align-middle{Jadi, }>br+b{JAWAB: })+td.align-middle>button.btn.btn-dark.float-end.tutup[type="button"]>b{Tutup}*
+
+M
+<m>\begin{aligned}\end{aligned}</m>
+
+CARA BIASA CARA CEPAT
+table.table.table-bordered>(thead.table-dark>(th.text-center>b{CARA BIASA})+(th.text-center>b{CARA CEPAT}))+tbody>tr>td*
