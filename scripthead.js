@@ -8,27 +8,9 @@ MathJax={
        }
     },
     options:{
-       skipHtmlTags: ["script","noscript","style","textarea","pre","code","m"]
+       skipHtmlTags: ["script","noscript","style","textarea","pre","code"]
     }
 };
-function jadiin(){
-   var els = document.getElementsByTagName("m");
-for (var i =0; i< els.length; i++) {
- e = els[i]
- e.id = "latex_temp_id"
- katex.render(e.textContent, latex_temp_id);
- e.id = "";
-}
-}
-function jadiin2(){
-   var els = document.getElementsByClassName("m")
-for (var i =0; i< els.length; i++) {
- e = els[i]
- e.id = "latex_temp_id"
- katex.render(e.textContent, latex_temp_id);
- e.id = "";
-}
-}
 function isinomor(awal){
    var banyaksoal = document.getElementsByClassName("nomor");
    for(var indeks3=0;indeks3<banyaksoal.length;indeks3++){
@@ -154,7 +136,7 @@ var logi = [["/2020/09/exercise%20zone%20logika%20matematika.html"],[],[]];
 var luda = [["/2019/02/luas-daerah-di-bawah-kurva-soal-dan.html"],["/2020/10/sbmptn-zone-luas-daerah-di-bawah-kurva.html"],[]];
 
 //matriks
-var matr = [["/2020/09/exercise-zone-matriks.html","/2020/09/exercise-zone-matriks-2.html","/2020/10/exercise-zone-matriks-3.html","/2017/11/matriks-soal-dan-pembahasan.html"],["/2020/09/sbmptn-zone-matriks.html"],[]];
+var matr = [["/2020/09/exercise-zone-matriks.html","/2020/09/exercise-zone-matriks-2.html","/2020/10/exercise-zone-matriks-3.html","/2017/11/matriks-soal-dan-pembahasan.html","/2021/09/exercise-zone-matriks-5.html","/2021/09/exercise-zone-matriks-6.html"],["/2020/09/sbmptn-zone-matriks.html"],[]];
 
 //makimum dan minimum
 var maksmin = [["/2020/09/exercise-zone-maksimum-dan-minimum.html"],["/2020/09/sbmptn-zone-maksimum-dan-minimum.html"],["/2020/09/hots-zone-maksimum-dan-minimum.html"]];
@@ -203,6 +185,9 @@ var perskuad = [["/2020/07/exercise-zone-persamaan-kuadrat.html"],["/2020/07/sbm
 
 //persamaan lingkaran
 var persling = [["/2020/03/exercise-zone-persamaan-lingkaran.html"],[],[]];
+
+//persamaan trigonometri
+var perstrig = [["/2020/08/exercise-zone-persamaan-trigonometri.html","/2020/08/exercise-zone-persamaan-trigonometri-2.html"],["/2020/08/sbmptn-zone-persamaan-trigonometri.html"],["/2020/08/olimpiade-zone-persamaan-trigonometri.html"]]
 
 //persamaan nilai mutlak satu variabel
 var PNMSV= [["/2020/08/exercise-zone-persamaan-nilai-mutlak.html","/2021/01/exercise-zone-persamaan-nilai-mutlak.html","/2019/09/persamaan-nilai-mutlak-soal-dan.html"],[],[]];
