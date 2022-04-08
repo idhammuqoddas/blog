@@ -36,5 +36,5 @@ var soalising = [
     [`2, 3,  4, 5, 6, ... . Tentukan suku ke-${angka8}`,angka8+1],
     [`4, 1, -2, -5, -8, … tentukan suku ke-${angka9}`,4-3*(angka9-1)],
     [`Asep seorang pelajar SMA kelas XI senang menabung uang. Selama ini dia berhasil menabung uangnya sejumlah Rp20.000.000,- di sebuah bank dengan
-    bunga 10% per tahun. Berapa lama Yusuf menyimpan uang tersebut agar menjadi Rp${angka10[angka10[5]-2]},-`,angka10[5]]
+    bunga 10% per tahun. Berapa tahun Asep menyimpan uang tersebut agar menjadi Rp${angka10[angka10[5]-2]},-`,angka10[5]]
 ]
