@@ -39,7 +39,7 @@ var soalpg = [
     [String.raw`Diketahui $f(x)=${angka5[0]}x${tanda1(angka5[1])}$ dan $\left(g\circ f\right)(x)=${angka5[0]*angka5[2]}x${konst(angka5[1]*angka5[2]+angka5[3])}$. Maka $g(x)=$ ....`,pil5[0],pil5[1],pil5[2],pil5[3],pil5[4]],
     [String.raw`Diketahui $f(x)=${angka6[0]}x${tanda1(angka6[1])}$, maka $f^{-1}(x)=$ ....`,String.raw`$\dfrac{x${tanda1(-angka6[1])}}{${angka6[0]}}$`,String.raw`$\dfrac{x${tanda1(angka6[1])}}{${angka6[0]}}$`,String.raw`$${angka6[0]}x${tanda1(-angka6[1])}$`,String.raw`$-${angka6[0]}x${tanda1(angka6[1])}$`,String.raw`$-${angka6[0]}x${tanda1(-angka6[1])}$`],
     [String.raw`Diketahui $f(x)=\dfrac{${angka7[0]}x-${angka7[1]}}{${angka7[2]}x-${angka7[3]}}$, maka $f^{-1}(x)=$ ....`,pil7[0],pil7[1],pil7[2],pil7[3],pil7[4]],
-    [String.raw`Perhatikan gambar segitiga siku-siku di bawah ini.<br>gambar $\tan\alpha=$ ....`,String.raw`$\dfrac5{12}$`,String.raw`$\dfrac5{13}$`,String.raw`$\dfrac{12}5$`,String.raw`$\dfrac{12}{13}$`,String.raw`$\dfrac{13}{12}$`]
+    [String.raw`Perhatikan gambar segitiga siku-siku di bawah ini.<br><img src="https://raw.githubusercontent.com/idhammuqoddas/blog/Idhamdaz-Matematika/gambar/Screenshot%202022-04-09%20222447.jpg"/><br> $\tan\alpha=$ ....`,String.raw`$\dfrac5{12}$`,String.raw`$\dfrac5{13}$`,String.raw`$\dfrac{12}5$`,String.raw`$\dfrac{12}{13}$`,String.raw`$\dfrac{13}{12}$`]
 ];
 var soalising = [
   [String.raw`Diketahui $f(x)=${angka9[0]}x${tanda1(angka9[1])}$, maka $f(${angka9[2]})=$ ....`,angka9[0]*angka9[2]+angka9[1]],
