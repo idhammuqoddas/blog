@@ -128,7 +128,7 @@ else if(fk2[3]>=60){
 }else{kelaske2=4};
 var tb2 = 20*kelaske2+0.5;
 var pjgkls = 20;
-var jawakhirno2 = Math.round(tb2+pjgkls*((60-fk2[kelaske2-1])/frekno2[kelaske2]) * 100) / 100;
+var jawakhirno2 = Math.round((tb2+pjgkls*((60-fk2[kelaske2-1])/frekno2[kelaske2])) * 100) / 100;
 
  var no3=ac(5);
  var kelaske3 = 0;
@@ -142,7 +142,7 @@ else if(fk2[3]>=45){
     kelaske3 = 3;
 }else{kelaske3=4};
 var tb3 = 20*kelaske3+0.5;
-var jawakhirno3 = Math.round(tb3+pjgkls*((60-fk2[kelaske3-1])/frekno2[kelaske3]) * 100) / 100;
+var jawakhirno3 = Math.round((tb3+pjgkls*((45-fk2[kelaske3-1])/frekno2[kelaske3])) * 100) / 100;
 
  var no4=acan(1,9);
 
