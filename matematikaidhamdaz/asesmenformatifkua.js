@@ -128,7 +128,7 @@ else if(fk2[3]>=60){
 }else{kelaske2=4};
 var tb2 = 20*kelaske2+0.5;
 var pjgkls = 20;
-var jawakhirno2 = tb2+pjgkls*((60-fk2[kelaske2-1])/frekno2[kelaske2]);
+var jawakhirno2 = Math.round(tb2+pjgkls*((60-fk2[kelaske2-1])/frekno2[kelaske2]) * 100) / 100;
 
  var no3=ac(5);
  var kelaske3 = 0;
@@ -142,13 +142,9 @@ else if(fk2[3]>=45){
     kelaske3 = 3;
 }else{kelaske3=4};
 var tb3 = 20*kelaske3+0.5;
-var jawakhirno3 = tb3+pjgkls*((60-fk2[kelaske3-1])/frekno2[kelaske3]);
+var jawakhirno3 = Math.round(tb3+pjgkls*((60-fk2[kelaske3-1])/frekno2[kelaske3]) * 100) / 100;
 
- var no4=[ac(5)];
-var pakso4 = [String.raw`\sqrt2\times\sqrt{10}`,String.raw`2\sqrt2\times\sqrt{10}`,String.raw`3\sqrt2\times\sqrt{10}`,String.raw`2\sqrt2\times2\sqrt{10}`,String.raw`2\sqrt2\times3\sqrt{10}`];
-var pakja4 = [String.raw`2\sqrt5`,String.raw`4\sqrt5`,String.raw`6\sqrt5`,String.raw`8\sqrt5`,String.raw`12\sqrt5`];
-no4[1]=pakja4[no4[0]];
-pakja4.splice(no4[0],1);
+ var no4=acan(1,9);
 
 var soalpg = [
     {"t":String.raw`Perhatikan tabel Tinggi Badan Siswa berikut ini.<br><table class="w3-table w3-bordered tengah">
@@ -212,7 +208,7 @@ var soalising =[
   <td>81 - 100</td>
   <td>${no2[0]}</td>
 </tr>
-  </table><br>Jika hanya <m>\dfrac14</m> dari jumlah siswa yang lulus, maka nilai minimal agar lulus adalah ....`,"s":jawakhirno2},
-    {"t":String.raw`dari soal nomor 2, jika hanya 45% siswa yang lulus, maka nilai terendah siswa yang lulus adalah ....`,"s":jawakhirno3},
+  </table><br>Jika hanya <m>\dfrac14</m> dari jumlah siswa yang lulus, maka nilai minimal agar lulus adalah ....<br><b><em>Petunjuk: Bulatkan hingga 2 angka di belakang koma. Ganti tanda koma menjadi tanda titik. Contoh, jika jawabanmu adalah 12,34 maka ketikkan 12.34</em></b>`,"s":jawakhirno2},
+    {"t":String.raw`dari soal nomor 2, jika hanya 45% siswa yang lulus, maka nilai terendah siswa yang lulus adalah ....<br><b><em>Petunjuk: Bulatkan hingga 2 angka di belakang koma. Ganti tanda koma menjadi tanda titik. Contoh, jika jawabanmu adalah 12,34 maka ketikkan 12.34</em></b>`,"s":jawakhirno3},
     {"t":String.raw`nilai desil ke-${no4} akan sama dengan persentil ke- ....`,"s":no4*10}
 ]
