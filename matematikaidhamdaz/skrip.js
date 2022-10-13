@@ -159,7 +159,7 @@ var limas = [[""],[],[]];
 var limit = [["/2022/10/exercise-zone-limit.html","/2022/10/exercise-zone-limit-2.html","/2022/05/exercise-zone-limit-3.html","/2022/05/exercise-zone-limit-4.html"],["/2020/02/sbmptn-zone-limit.html","/2020/03/sbmptn-zone-limit-2.html"],["/2020/02/olimpiade-zone-limit.html"]];
 
 //limit tak hingga
-var limtahi = [["/2020/09/exercise-zone-limit-tak-hingga.html"],["/2019/09/limit-tak-hingga-2-soal-dan-pembahasan.html"],["/2018/04/limit-tak-hingga-soal-dan-pembahasan.html"]];
+var limtahi = [["/2022/10/exercise-zone-limit-tak-hingga.html"],["/2019/09/limit-tak-hingga-2-soal-dan-pembahasan.html"],["/2018/04/limit-tak-hingga-soal-dan-pembahasan.html"]];
 
 //limit trigonometri 
 var limtri = [["",""],["",""],[""]];
