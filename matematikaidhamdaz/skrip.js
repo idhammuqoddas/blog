@@ -183,7 +183,7 @@ var matr = [["/2020/09/exercise-zone-matriks.html","/2020/09/exercise-zone-matri
 var maksmin = [["/2020/09/exercise-zone-maksimum-dan-minimum.html"],["/2020/09/sbmptn-zone-maksimum-dan-minimum.html"],["/2020/09/hots-zone-maksimum-dan-minimum.html"]];
 
 //pangkat
-var pangk = [["/2020/03/exercise-zone-pangkat-eksponen.html","/2022/05/exercise-zone-pangkat-eksponen-2.html","/2022/06/exercise-zone-pangkat-eksponen-3.html"],["/2020/03/sbmptn-zone-pangkat-eksponen.html"],["/2020/03/olimpiade-zone-pangkat-eksponen.html"]];
+var pangk = [["/2020/03/exercise-zone-pangkat-eksponen.html","/2022/05/exercise-zone-pangkat-eksponen-2.html","/2022/06/exercise-zone-pangkat-eksponen-3.html"],["/2022/06/sbmptn-zone-pangkat-eksponen.html"],["/2020/03/olimpiade-zone-pangkat-eksponen.html"]];
 
 //panjang vektor
 var panvek = [["/2020/03/exercise-zone-panjang-vektor.html"],[],[]];
