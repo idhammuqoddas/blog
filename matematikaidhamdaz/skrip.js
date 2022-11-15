@@ -267,7 +267,7 @@ var segitiga = [["/2020/09/exercise-zone-segitiga.html"],["/2020/09/sbmptn-zone-
 var segsik = [["/2017/06/segitiga-soal-dan-pembahasan.html"],[],[]];
 
 //sistem persamaan
-var sisper = [["/2022/11/exercise-zone-sistem-persamaan-aljabar.html"],["/2022/11/sbmptn-zone-sistem-persamaan-aljabar.htmll"],["/2022/11/hots-zone-sistem-persamaan-aljabar.html"]];
+var sisper = [["/2022/11/exercise-zone-sistem-persamaan-aljabar.html"],["/2022/11/sbmptn-zone-sistem-persamaan-aljabar.html"],["/2022/11/hots-zone-sistem-persamaan-aljabar.html"]];
 
 //Sistem persamaan linear dua variabel
 var spldv = [["/2022/05/exercise-zone-sistem-persamaan-linear.html"],[],[]];
