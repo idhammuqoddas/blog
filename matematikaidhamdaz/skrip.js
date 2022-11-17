@@ -336,6 +336,7 @@ function soal(materi, tipesoal, halaman)  {
         for(let listmat of listmatematika){
          listmat.setAttribute('id','rendermtk');
             let tempatmtk = document.getElementById('rendermtk');
+            tempatmtk.innerHTML.replaceAll('&amp;', '&');
             katex.render(tempatmtk.innerHTML, tempatmtk, {
                 throwOnError: false
             });
