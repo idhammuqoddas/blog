@@ -204,7 +204,7 @@ var perbberni = [["/2021/02/exercise-zone-perbandingan-berbanding.html"],[],[]];
 var perbse = [["/2019/11/perbandingan-senilai-direct-proportion.html"],[],[]];
 
 //permutasi dan kombinasi
-var permukom = [["/2020/03/exercise-zone-permutasi-dan-kombinasi.html","/2020/09/exercise-zone-permutasi-dan-kombinasi-2.html"],["/2020/09/sbmptn-zone-permutasi-dan-kombinasi.html"],["/2020/10/hots-zone-permutasi-dan-kombinasi.html"]];
+var permukom = [["/2022/11/exercise-zone-permutasi-dan-kombinasi.html","/2020/09/exercise-zone-permutasi-dan-kombinasi-2.html"],["/2020/09/sbmptn-zone-permutasi-dan-kombinasi.html"],["/2020/10/hots-zone-permutasi-dan-kombinasi.html"]];
 
 //persegi panjang
 var perpan = [["/2018/11/persegi-panjang-soal-dan-pembahasan.html"],[],[]];
