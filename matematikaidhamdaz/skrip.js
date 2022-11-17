@@ -105,7 +105,7 @@ var fungnatu = [["/2022/05/exercise-zone-fungsi-naik-dan-turun.html"],[],[]];
 var gasingling = [["/2022/05/exercise-zone-garis-singgung-lingkaran.html"],["/2022/05/sbmptn-zone-garis-singgung-lingkaran.html"],[]];
 
 //Geometri Bidang Datar
-var geom = [[],[],["/2022/11/hots-zone-geometri-bidang-datar.html"]];
+var geombida = [[],[],["/2022/11/hots-zone-geometri-bidang-datar.html"]];
 
 //grafik fungsi trigonometri
 var grafutri = [["/2020/09/exercise-zone-grafik-fungsi-trigonometri.html"],[],[]];
