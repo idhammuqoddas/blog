@@ -98,6 +98,9 @@ var fung = [["/2022/05/exercise-zone-fungsi.html","/2022/05/exercise-zone-fungsi
 //fungsi komposisi
 var fungkom = [["/2022/05/exercise-zone-fungsi-komposisi.html","/2022/05/exercise-zone-fungsi-komposisi-2.html"],["/2022/05/sbmptn-zone-fungsi-komposisi.html"],[]];
 
+//fungsi kuadrat
+var fungkuad = [["/2022/11/exercise-zone-fungsi-kuadrat.html"],[],[]];
+
 //fungsi naik dan turun
 var fungnatu = [["/2022/05/exercise-zone-fungsi-naik-dan-turun.html"],[],[]];
 
