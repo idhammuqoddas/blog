@@ -252,7 +252,7 @@ var PNMSV= [["/2020/08/exercise-zone-persamaan-nilai-mutlak.html","/2021/01/exer
 var poli = [[],[],["/2019/05/poligon-segi-banyak-soal-dan-pembahasan.html"]];
 
 //program linear
-var prolin = [["/2018/03/program-linier-program-linear-soal-dan.html"],[],[]];
+var prolin = [["/2022/11/exercise-zone-program-linier-program.html"],[],[]];
 
 //\ertidaksamaan linear satu variabel
 var PtLSV = [["/2020/10/exercise-zone-pertidaksamaan-linear.html"],[],[]];
