@@ -195,7 +195,7 @@ var pangk = [["/2020/03/exercise-zone-pangkat-eksponen.html","/2022/05/exercise-
 var panvek = [["/2020/03/exercise-zone-panjang-vektor.html"],[],[]];
 
 //peluang
-var peluang = [["/2020/09/exercise-zone-peluang.html","/2017/05/peluang-soal-dan-pembahasan.html"],["/2020/09/sbmptn-zone-peluang.html"],["/2020/09/hots-zone-peluang.html"]];
+var peluang = [["h/2022/11/exercise-zone-peluang.html","/2017/05/peluang-soal-dan-pembahasan.html"],["/2020/09/sbmptn-zone-peluang.html"],["/2020/09/hots-zone-peluang.html"]];
 
 //peluang distribusi binomial
 var peldistbin = [["/2021/01/exercise-zone-peluang-distribusi.html"],[],[]];
