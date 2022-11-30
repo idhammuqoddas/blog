@@ -186,7 +186,7 @@ var luda = [["/2019/02/luas-daerah-di-bawah-kurva-soal-dan.html"],["/2020/10/sbm
 var matr = [["/2020/09/exercise-zone-matriks.html","/2020/09/exercise-zone-matriks-2.html","/2020/10/exercise-zone-matriks-3.html","/2017/11/matriks-soal-dan-pembahasan.html","/2021/09/exercise-zone-matriks-5.html","/2022/05/exercise-zone-matriks-6.html"],["/2020/09/sbmptn-zone-matriks.html"],[]];
 
 //makimum dan minimum
-var maksmin = [["/2020/09/exercise-zone-maksimum-dan-minimum.html"],["/2020/09/sbmptn-zone-maksimum-dan-minimum.html"],["/2020/09/hots-zone-maksimum-dan-minimum.html"]];
+var maksmin = [["/2022/11/exercise-zone-maksimum-dan-minimum.html"],["/2022/11/sbmptn-zone-maksimum-dan-minimum.html"],["/2022/11/hots-zone-maksimum-dan-minimum.html"]];
 
 //pangkat
 var pangk = [["/2022/06/exercise-zone-pangkat-eksponen.html","/2022/05/exercise-zone-pangkat-eksponen-2.html","/2022/06/exercise-zone-pangkat-eksponen-3.html"],["/2022/06/sbmptn-zone-pangkat-eksponen.html"],["/2022/11/hots-zone-pangkat-eksponen.html"]];
