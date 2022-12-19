@@ -186,7 +186,7 @@ var logi = [["/2020/09/exercise%20zone%20logika%20matematika.html"],[],[]];
 var luda = [["/2019/02/luas-daerah-di-bawah-kurva-soal-dan.html"],["/2020/10/sbmptn-zone-luas-daerah-di-bawah-kurva.html"],[]];
 
 //matriks
-var matr = [["/2022/11/exercise-zone-matriks.html","/2022/11/exercise-zone-matriks-2.html","/2022/11/exercise-zone-matriks-3.html","/2022/12/exercise-zone-matriks-4.html","/2022/12/exercise-zone-matriks-5.html","/2022/05/exercise-zone-matriks-6.html"],["/2020/09/sbmptn-zone-matriks.html"],[]];
+var matr = [["/2022/11/exercise-zone-matriks.html","/2022/11/exercise-zone-matriks-2.html","/2022/11/exercise-zone-matriks-3.html","/2022/12/exercise-zone-matriks-4.html","/2022/12/exercise-zone-matriks-5.html","/2022/05/exercise-zone-matriks-6.html"],["/2022/12/sbmptn-zone-matriks.html"],[]];
 
 //makimum dan minimum
 var maksmin = [["/2022/11/exercise-zone-maksimum-dan-minimum.html"],["/2022/11/sbmptn-zone-maksimum-dan-minimum.html"],["/2022/11/hots-zone-maksimum-dan-minimum.html"]];
@@ -343,25 +343,12 @@ function soal(materi, tipesoal, halaman)  {
      let listmatematika = document.getElementsByTagName("m");
    if(listmatematika.length>0){
        for(let listmat of listmatematika){
-        listmat.setAttribute('id','rendermtk');
-           let tempatmtk = document.getElementById('rendermtk');
-           tempatmtk.innerHTML.replaceAll('&amp;', '&');
-           katex.render(tempatmtk.innerHTML, tempatmtk, {
-               throwOnError: false
-           });
-           listmat.setAttribute('id','');
-       }
+        listmat.innerHTML = "$"+listmat.innerHTML+"$"
    }
    let listmatematikad = document.getElementsByTagName("z");
    if(listmatematikad.length>0){
      for(let listmate of listmatematikad){
-        listmate.setAttribute('id','rendermtkd');
-         let tempatmtkd = document.getElementById('rendermtkd');
-         katex.render(tempatmtkd.innerHTML, tempatmtkd, {
-           displayMode: true,
-             throwOnError: false
-         });
-         listmate.setAttribute('id','');
+        listmate.innerHTML = "$$"+listmate.innerHTML+"$$"
      }
  }};
 document.addEventListener('DOMContentLoaded', function () {
