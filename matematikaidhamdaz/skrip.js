@@ -1,7 +1,7 @@
 MathJax={
     loader: {load: ['[tex]/color','[tex]/cancel','[tex]/enclose']},
     tex: {
-       inlineMath: [['$', '$']],
+       inlineMath: [['$', '$'],['\\(','\\)']],
        packages: {'[+]': ['color','cancel','enclose']},
        macros: {
           degree: "{^\\circ}",
