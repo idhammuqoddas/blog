@@ -1,23 +1,23 @@
 MathJax={
-    loader: {load: ['[tex]/color','[tex]/cancel','[tex]/enclose']},
-    tex: {
-       inlineMath: [['$', '$'],['\\(','\\)']],
-       packages: {'[+]': ['color','cancel','enclose']},
-       macros: {
-          degree: "{^\\circ}",
-          dmn: "\\ \\middle\\vert\\ "
-       }
-    },
-    options:{
-       skipHtmlTags: ["script","noscript","style","textarea","pre","code"]
-    }
+   loader: {load: ['[tex]/color','[tex]/cancel','[tex]/enclose']},
+   tex: {
+      inlineMath: [['$', '$'],['\\(','\\)']],
+      packages: {'[+]': ['color','cancel','enclose']},
+      macros: {
+         degree: "{^\\circ}",
+         dmn: "\\ \\middle\\vert\\ "
+      }
+   },
+   options:{
+      skipHtmlTags: ["script","noscript","style","textarea","pre","code"]
+   }
 };
 
 function isinomor(awal){
-   let soalke = document.getElementsByClassName("nomor");
-   for(let i=0;i<soalke.length;i++){
-      soalke[i].innerHTML = awal+i;
-   }
+  let soalke = document.getElementsByClassName("nomor");
+  for(let i=0;i<soalke.length;i++){
+     soalke[i].innerHTML = awal+i;
+  }
 }
 
 //nama class untuk tipe
@@ -28,6 +28,9 @@ var akar = [["/2022/04/exercise-zone-bentuk-akar.html","/2022/04/exercise-zone-b
 
 //aljabar
 var alj = [["/2020/03/exercise-zone-aljabar.html"],["/2020/10/sbmptn-zone-aljabar.html"],["/2020/03/olimpiade-zone-aljabar.html","/2020/03/olimpiade-zone-aljabar-2.html"]];
+
+//AM GM HM QM
+var amgmhmqm = [["/2022/11/exercise-zone-am-gm-hm-qm.html"],[],["/2022/11/hots-zone-am-gm-hm-qm.html"]];
 
 //asimtot kurva
 var asim = [[],["/2017/05/asimtot-kurva-soal-dan-pembahasan.html"],["/2020/10/hots-zone-asimtot-kurva.html"]];
@@ -60,7 +63,7 @@ var babil = [["/2020/08/exercise-zone-basis-bilangan.html"],[],["/2022/03/hots-z
 var bilas = [[],[],["/2022/04/hots-zone-bilangan-asli-bilangan-bulat.html"]];
 
 //bilangan bulat
-var bilbul = [["/2022/04/exercise-zone-bilangan-bulat.html"],[],["/2022/04/hots-zone-bilangan-bulat.html"]];
+var bilbul = [["/2022/04/exercise-zone-bilangan-bulat.html"],[],["/2022/04/hots-zone-bilangan-bulat.html","/2022/12/hots-zone-bilangan-bulat-2.html"]];
 
 //bilangan pecahan
 var bilpec = [["/2022/04/exercise-zone-bilangan-pecahan.html"],[],["/2022/04/hots-zone-bilangan-pecahan.html"]];
@@ -183,10 +186,13 @@ var logi = [["/2020/09/exercise%20zone%20logika%20matematika.html"],[],[]];
 var luda = [["/2019/02/luas-daerah-di-bawah-kurva-soal-dan.html"],["/2020/10/sbmptn-zone-luas-daerah-di-bawah-kurva.html"],[]];
 
 //matriks
-var matr = [["/2020/09/exercise-zone-matriks.html","/2020/09/exercise-zone-matriks-2.html","/2020/10/exercise-zone-matriks-3.html","/2017/11/matriks-soal-dan-pembahasan.html","/2021/09/exercise-zone-matriks-5.html","/2022/05/exercise-zone-matriks-6.html"],["/2020/09/sbmptn-zone-matriks.html"],[]];
+var matr = [["/2022/11/exercise-zone-matriks.html","/2022/11/exercise-zone-matriks-2.html","/2022/11/exercise-zone-matriks-3.html","/2022/12/exercise-zone-matriks-4.html","/2022/12/exercise-zone-matriks-5.html","/2022/05/exercise-zone-matriks-6.html"],["/2020/09/sbmptn-zone-matriks.html"],[]];
 
 //makimum dan minimum
 var maksmin = [["/2022/11/exercise-zone-maksimum-dan-minimum.html"],["/2022/11/sbmptn-zone-maksimum-dan-minimum.html"],["/2022/11/hots-zone-maksimum-dan-minimum.html"]];
+
+//nilai mutlak
+var nilaimutlak = [["/2022/11/exercise-zone-nilai-mutlak.html"],[],["/2022/11/hots-zone-nilai-mutlak.html"]];
 
 //pangkat
 var pangk = [["/2022/06/exercise-zone-pangkat-eksponen.html","/2022/05/exercise-zone-pangkat-eksponen-2.html","/2022/06/exercise-zone-pangkat-eksponen-3.html"],["/2022/06/sbmptn-zone-pangkat-eksponen.html"],["/2022/11/hots-zone-pangkat-eksponen.html"]];
@@ -207,7 +213,7 @@ var perbberni = [["/2021/02/exercise-zone-perbandingan-berbanding.html"],[],[]];
 var perbse = [["/2019/11/perbandingan-senilai-direct-proportion.html"],[],[]];
 
 //permutasi dan kombinasi
-var permukom = [["/2022/11/exercise-zone-permutasi-dan-kombinasi.html","/2020/09/exercise-zone-permutasi-dan-kombinasi-2.html"],["/2020/09/sbmptn-zone-permutasi-dan-kombinasi.html"],["/2020/10/hots-zone-permutasi-dan-kombinasi.html"]];
+var permukom = [["/2022/11/exercise-zone-permutasi-dan-kombinasi.html","/2022/12/exercise-zone-permutasi-dan-kombinasi-2.html"],["/2020/09/sbmptn-zone-permutasi-dan-kombinasi.html"],["/2020/10/hots-zone-permutasi-dan-kombinasi.html"]];
 
 //persegi panjang
 var perpan = [["/2018/11/persegi-panjang-soal-dan-pembahasan.html"],[],[]];
@@ -234,7 +240,7 @@ var persgano = [["/2019/11/persamaan-garis-normal-soal-dan.html"],[],[]];
 var persgasi = [["/2020/09/exercise-zone-persamaan-garis-singgung.html"],["/2020/03/sbmptn-zone-persamaan-garis-singgung.html"],["/2020/09/olimpiade-zone-persamaan-garis-singgung.html"]];
 
 //persamaan kuadrat
-var perskuad = [["/2020/07/exercise-zone-persamaan-kuadrat.html"],["/2020/07/sbmptn-zone-persamaan-kuadrat.html","/2020/07/sbmptn-zone-persamaan-kuadrat-2.html"],["/2020/07/olimpiade-zone-persamaan-kuadrat.html"]];
+var perskuad = [["/2022/12/exercise-zone-persamaan-kuadrat.html"],["/2020/07/sbmptn-zone-persamaan-kuadrat.html","/2020/07/sbmptn-zone-persamaan-kuadrat-2.html"],["/2022/12/hots-zone-persamaan-kuadrat.html"]];
 
 //persamaan lingkaran
 var persling = [["/2020/03/exercise-zone-persamaan-lingkaran.html"],[],[]];
@@ -273,7 +279,7 @@ var segitiga = [["/2020/09/exercise-zone-segitiga.html"],["/2020/09/sbmptn-zone-
 var segsik = [["/2017/06/segitiga-soal-dan-pembahasan.html"],[],[]];
 
 //sistem persamaan
-var sisper = [["/2022/11/exercise-zone-sistem-persamaan-aljabar.html"],["/2022/11/sbmptn-zone-sistem-persamaan-aljabar.html"],["/2022/11/hots-zone-sistem-persamaan-aljabar.html"]];
+var sisper = [["/2022/11/exercise-zone-sistem-persamaan-aljabar.html"],["/2022/11/sbmptn-zone-sistem-persamaan-aljabar.html"],["/2022/11/hots-zone-sistem-persamaan-aljabar.html","/2022/11/hots-zone-sistem-persamaan-aljabar-2.html"]];
 
 //Sistem persamaan linear dua variabel
 var spldv = [["/2022/05/exercise-zone-sistem-persamaan-linear.html"],[],[]];
@@ -312,54 +318,52 @@ var volbp = [["/2018/09/volume-benda-putar-soal-dan-pembahasan.html"],[],[]]
 
 //fungsi soal untuk mengatur tipe dan navigasi. materi diisi dengan nama variabel sesuai dengan materi yang diinginkan di atas. tipesoal diisi 1 untuk tipe standar, 2 untuk tipe sbmptn, dan 3 untuk tipe hots. halaman diisi angka sesuai halaman ke berapa
 function soal(materi, tipesoal, halaman)  {
-      for (let i = 0; i < 3; i++) {
-         if (materi[i].length > 0) {
-           document.getElementById(idtipe[i]).classList.replace("w3-hide", "w3-show");
-            document.getElementById(idtipe[i]).setAttribute("href", materi[i][0]);
-         }
-      }
-      var navi = document.getElementsByClassName("navi");
-      if (materi[tipesoal - 1].length > 1) {
-         for (let i = 0; i < navi.length; i++) {
-            navi[i].classList.replace("w3-hide", "w3-show");
-            for (let j = 0; j < materi[tipesoal - 1].length; j++) {
-                navi[i].innerHTML += `<a href="${materi[tipesoal - 1][j]}" class="w3-bar-item w3-button">${(j + 1)}</a>`;
-            }
-            navi[i].getElementsByTagName("a")[halaman - 1].removeAttribute("href");
-            navi[i].getElementsByTagName("a")[halaman - 1].classList.add("w3-green");
-         }
-      }
-      isinomor((halaman - 1) * 10 + 1);
-      
-   }
-
-   function rendermatematika() {
-      let listmatematika = document.getElementsByTagName("m");
-    if(listmatematika.length>0){
-        for(let listmat of listmatematika){
-         listmat.setAttribute('id','rendermtk');
-            let tempatmtk = document.getElementById('rendermtk');
-            tempatmtk.innerHTML.replaceAll('&amp;', '&');
-            katex.render(tempatmtk.innerHTML, tempatmtk, {
-                throwOnError: false
-            });
-            listmat.setAttribute('id','');
+     for (let i = 0; i < 3; i++) {
+        if (materi[i].length > 0) {
+          document.getElementById(idtipe[i]).classList.replace("w3-hide", "w3-show");
+           document.getElementById(idtipe[i]).setAttribute("href", materi[i][0]);
         }
-    }
-    let listmatematikad = document.getElementsByTagName("z");
-    if(listmatematikad.length>0){
-      for(let listmate of listmatematikad){
-         listmate.setAttribute('id','rendermtkd');
-          let tempatmtkd = document.getElementById('rendermtkd');
-          katex.render(tempatmtkd.innerHTML, tempatmtkd, {
-            displayMode: true,
-              throwOnError: false
-          });
-          listmate.setAttribute('id','');
-      }
-  }};
+     }
+     var navi = document.getElementsByClassName("navi");
+     if (materi[tipesoal - 1].length > 1) {
+        for (let i = 0; i < navi.length; i++) {
+           navi[i].classList.replace("w3-hide", "w3-show");
+           for (let j = 0; j < materi[tipesoal - 1].length; j++) {
+               navi[i].innerHTML += `<a href="${materi[tipesoal - 1][j]}" class="w3-bar-item w3-button">${(j + 1)}</a>`;
+           }
+           navi[i].getElementsByTagName("a")[halaman - 1].removeAttribute("href");
+           navi[i].getElementsByTagName("a")[halaman - 1].classList.add("w3-green");
+        }
+     }
+     isinomor((halaman - 1) * 10 + 1);
+     
+  }
+
+  function rendermatematika() {
+     let listmatematika = document.getElementsByTagName("m");
+   if(listmatematika.length>0){
+       for(let listmat of listmatematika){
+        listmat.setAttribute('id','rendermtk');
+           let tempatmtk = document.getElementById('rendermtk');
+           tempatmtk.innerHTML.replaceAll('&amp;', '&');
+           katex.render(tempatmtk.innerHTML, tempatmtk, {
+               throwOnError: false
+           });
+           listmat.setAttribute('id','');
+       }
+   }
+   let listmatematikad = document.getElementsByTagName("z");
+   if(listmatematikad.length>0){
+     for(let listmate of listmatematikad){
+        listmate.setAttribute('id','rendermtkd');
+         let tempatmtkd = document.getElementById('rendermtkd');
+         katex.render(tempatmtkd.innerHTML, tempatmtkd, {
+           displayMode: true,
+             throwOnError: false
+         });
+         listmate.setAttribute('id','');
+     }
+ }};
 document.addEventListener('DOMContentLoaded', function () {
-    rendermatematika();
+   rendermatematika();
 }, false);
-   
-   
