@@ -342,13 +342,14 @@ function soal(materi, tipesoal, halaman)  {
   function rendermatematika() {
      let listmatematika = document.getElementsByTagName("m");
    if(listmatematika.length>0){
-       for(let listmat of listmatematika){
-        listmat.innerHTML = "$"+listmat.innerHTML+"$"
+      for(let listmat of listmatematika){
+         listmat.innerHTML = "$"+listmat.innerHTML+"$"
+      }
    }
    let listmatematikad = document.getElementsByTagName("z");
    if(listmatematikad.length>0){
      for(let listmate of listmatematikad){
-        listmate.innerHTML = "$$"+listmate.innerHTML+"$$"
+      listmate.innerHTML = "$$"+listmate.innerHTML+"$$"
      }
  }};
 document.addEventListener('DOMContentLoaded', function () {
