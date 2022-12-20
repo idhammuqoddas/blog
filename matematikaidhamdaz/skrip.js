@@ -81,7 +81,7 @@ var dertel = [[],[],["/2018/10/deret-teleskopik-soal-dan-pembahasan.html"]];
 var desil = [["/2022/05/exercise-zone-desil.html"],[],[]];
 
 //determinan matriks
-var deter = [["/2022/05/exercise-zone-determinan-matriks.html"],[],[]];
+var deter = [["/2022/05/exercise-zone-determinan-matriks.html","/2022/12/exercise-zone-determinan-matriks-2.html"],["/2022/12/sbmptn-zone-determinan-matriks.html"],[]];
 
 //diagram lingkaran 
 var diagling = [["/2022/05/exercise-zone-diagram-lingkaran.html"],[],[]];
