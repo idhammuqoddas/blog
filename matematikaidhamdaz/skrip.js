@@ -126,7 +126,7 @@ var hubgarling = [["/2022/05/exercise-zone-hubungan-garis-dan.html"],[],[]];
 var indma = [["/2022/05/exercise-zone-induksi-matematika.html"],[],[]];
 
 //invers matriks
-var inmat = [["/2022/05/exercise-zone-invers-matriks.html"],[],[]];
+var inmat = [["/2022/05/exercise-zone-invers-matriks.html","/2022/12/exercise-zone-invers-matriks-2.html"],["/2022/12/sbmptn-zone-invers-matriks.html"],[]];
 
 //integral lipat
 var intlipat = [["/2022/05/exercise-zone-integral-lipat.html"],[],[]];
