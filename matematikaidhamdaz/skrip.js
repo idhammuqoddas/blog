@@ -281,6 +281,9 @@ var segsik = [["/2017/06/segitiga-soal-dan-pembahasan.html"],[],[]];
 //sistem persamaan
 var sisper = [["/2022/11/exercise-zone-sistem-persamaan-aljabar.html"],["/2022/11/sbmptn-zone-sistem-persamaan-aljabar.html"],["/2022/11/hots-zone-sistem-persamaan-aljabar.html","/2022/11/hots-zone-sistem-persamaan-aljabar-2.html"]];
 
+//KPK
+var soalkpk = [["/2023/01/exercise-zone-kpk-kelipatan-persekutuan.html"],[],[]];
+
 //Sistem persamaan linear dua variabel
 var spldv = [["/2022/05/exercise-zone-sistem-persamaan-linear.html"],[],[]];
 
