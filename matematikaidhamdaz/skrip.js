@@ -272,6 +272,9 @@ var refl = [["/2020/08/exercise-zone-refleksi-pencerminan.html","/2022/05/exerci
 //rotasi
 var rotasi = [["/2022/12/exercise-zone-rotasi.html"],[],[]];
 
+//satuan waktu
+var satuanwaktu = [["/2023/01/exercise-zone-satuan-waktu.html"],[],[]];
+
 //segitiga
 var segitiga = [["/2020/09/exercise-zone-segitiga.html"],["/2020/09/sbmptn-zone-segitiga.html"],["/2020/09/hots-zone-segitiga.html"]];
 
