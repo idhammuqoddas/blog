@@ -143,6 +143,9 @@ var inttritat = [[""],[],[]];
 //invers fungsi
 var invfung = [["/2020/03/exercise-zone-invers-fungsi.html"],["/2020/08/sbmptn-zone-invers-fungsi.html"],[]];
 
+//jarak, kecepatan dan percepatan
+var jarakkecepatanpercepatan = [[],[],["/2023/01/hots-zone-jarak-kecepatan-dan-percepatan.html"]];
+
 //kesebangunan
 var keseb = [["/2021/01/exercise-zone-kesebangunan.html"],[],[]];
 
