@@ -143,9 +143,6 @@ var inttritat = [[""],[],[]];
 //invers fungsi
 var invfung = [["/2020/03/exercise-zone-invers-fungsi.html"],["/2020/08/sbmptn-zone-invers-fungsi.html"],[]];
 
-//jarak, kecepatan dan percepatan
-var jarakkecepatanpercepatan = [[],[],["/2023/01/hots-zone-jarak-kecepatan-dan-percepatan.html"]];
-
 //kesebangunan
 var keseb = [["/2021/01/exercise-zone-kesebangunan.html"],[],[]];
 
@@ -187,6 +184,9 @@ var logi = [["/2020/09/exercise%20zone%20logika%20matematika.html"],[],[]];
 
 //luas daerah di bawah kurva
 var luda = [["/2019/02/luas-daerah-di-bawah-kurva-soal-dan.html"],["/2020/10/sbmptn-zone-luas-daerah-di-bawah-kurva.html"],[]];
+
+//matematika terapan
+var matematikaterapan = [[],[],["/2023/01/hots-zone-jarak-kecepatan-dan-percepatan.html"]];
 
 //matriks
 var matr = [["/2022/11/exercise-zone-matriks.html","/2022/11/exercise-zone-matriks-2.html","/2022/11/exercise-zone-matriks-3.html","/2022/12/exercise-zone-matriks-4.html","/2022/12/exercise-zone-matriks-5.html","/2022/05/exercise-zone-matriks-6.html"],["/2022/12/sbmptn-zone-matriks.html"],[]];
