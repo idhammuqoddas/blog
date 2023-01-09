@@ -174,7 +174,7 @@ var limtahi = [["/2022/10/exercise-zone-limit-tak-hingga.html","/2022/10/exercis
 var limtri = [["",""],["",""],[""]];
 
 //lingkaran
-var lingk = [["/2021/01/exercise-zone-lingkaran.html"],["/2020/09/sbmptn-zone-lingkaran.html"],["/2020/09/hots-zone-lingkaran.html"]];
+var lingk = [["/2023/01/exercise-zone-lingkaran.html"],["/2020/09/sbmptn-zone-lingkaran.html"],["/2023/01/hots-zone-lingkaran.html"]];
 
 //logaritma
 var loga = [["/2022/06/exercise-zone-logaritma.html","/2020/02/exercise-zone-logaritma-2.html","/2022/05/exercise-zone-logaritma-3.html","/2022/05/exercise-zone-logaritma-4.html"],["/2020/02/sbmptn-zone-logaritma.html"],["/2020/10/hots-zone-logaritma.html"]];
@@ -204,7 +204,7 @@ var pangk = [["/2022/06/exercise-zone-pangkat-eksponen.html","/2022/05/exercise-
 var panvek = [["/2020/03/exercise-zone-panjang-vektor.html"],[],[]];
 
 //peluang
-var peluang = [["h/2022/11/exercise-zone-peluang.html","/2017/05/peluang-soal-dan-pembahasan.html"],["/2020/09/sbmptn-zone-peluang.html"],["/2020/09/hots-zone-peluang.html"]];
+var peluang = [["h/2022/11/exercise-zone-peluang.html","/2022/12/exercise-zone-peluang-2.html"],["/2020/09/sbmptn-zone-peluang.html"],["/2022/12/hots-zone-peluang.html"]];
 
 //peluang distribusi binomial
 var peldistbin = [["/2021/01/exercise-zone-peluang-distribusi.html"],[],[]];
@@ -231,7 +231,7 @@ var persbenak = [["/2021/05/exercise-zone-persamaan-bentuk-akar.html"],[],["/201
 var persdif = [[""],[],[]];
 
 //persegi
-var persegi = [[],[],["/2017/12/persegi-soal-dan-pembahasan.html"]];
+var persegi = [[],[],["/2023/01/hots-zone-persegi.html"]];
 
 //persamaan eksponen
 var persek = [["/2020/09/exercise-zone-persamaan-eksponen.html"],["/2020/03/sbmptn-zone-persamaan-eksponen.html"],["/2020/09/olimpiade-zone-persamaan-eksponen.html"]];
