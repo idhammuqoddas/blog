@@ -210,7 +210,7 @@ var peluang = [["h/2022/11/exercise-zone-peluang.html","/2017/05/peluang-soal-da
 var peldistbin = [["/2021/01/exercise-zone-peluang-distribusi.html"],[],[]];
 
 //perbandingan berbalik nilai
-var perbberni = [["/2021/02/exercise-zone-perbandingan-berbanding.html"],[],[]];
+var perbberni = [["/2023/01/exercise-zone-perbandingan-berbanding.html"],[],["/2023/01/hots-zone-perbandingan-berbalik-nilai.html"]];
 
 //perbandingan senilai
 var perbse = [["/2019/11/perbandingan-senilai-direct-proportion.html"],[],[]];
