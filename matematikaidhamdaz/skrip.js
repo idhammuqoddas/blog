@@ -21,7 +21,7 @@ function isinomor(awal){
 }
 
 //nama class untuk tipe
-var idtipe=["standar","sbmptn","hots"];
+var idtipe=["standar","snbt","hots"];
 
 //bentuk akar
 var akar = [["/2022/04/exercise-zone-bentuk-akar.html","/2022/04/exercise-zone-bentuk-akar-2.html"],["/2022/04/sbmptn-zone-bentuk-akar.html"],["/2022/04/hots-zone-bentuk-akar.html"]];
@@ -45,7 +45,7 @@ var atus = [[""],[],[]];
 var balok = [["/2022/04/exercise-zone-balok.html"],["/2022/04/sbmptn-zone-balok.html"],[]];
 
 //barisan dan deret
-var barder = [["/2022/04/exercise-zone-barisan-dan-deret_29.html"],["/2022/04/sbmptn-zone-barisan-dan-deret.html"],["/2022/04/hots-zone-barisan-dan-deret.html"]];
+var barder = [["/2022/04/exercise-zone-barisan-dan-deret_29.html"],["/2022/04/sbmptn-zone-barisan-dan-deret.html"],["/2022/04/hots-zone-barisan-dan-deret.html","/2023/01/hots-zone-barisan-dan-deret-2.html"]];
 
 //barisan dan deret aritmetika
 var BarDerArit = [["/2022/04/exercise-zone-barisan-dan-deret.html","/2022/04/exercise-zone-barisan-dan-deret_27.html","/2022/04/exercise-zone-barisan-dan-deret_2.html","/2022/04/exercise-zone-barisan-dan-deret_90.html","/2022/05/exercise-zone-barisan-dan-deret.html"],["/2022/04/sbmptn-zone-barisan-dan-deret-aritmetika.html"],["/2022/04/hots-zone-barisan-dan-deret-aritmetika.html"]];
@@ -63,7 +63,7 @@ var babil = [["/2020/08/exercise-zone-basis-bilangan.html"],[],["/2022/03/hots-z
 var bilas = [[],[],["/2022/04/hots-zone-bilangan-asli-bilangan-bulat.html"]];
 
 //bilangan bulat
-var bilbul = [["/2022/04/exercise-zone-bilangan-bulat.html"],[],["/2022/04/hots-zone-bilangan-bulat.html","/2022/12/hots-zone-bilangan-bulat-2.html"]];
+var bilbul = [["/2022/04/exercise-zone-bilangan-bulat.html"],["/2023/01/snbt-zone-bilangan-bulat.html"],["/2022/04/hots-zone-bilangan-bulat.html","/2022/12/hots-zone-bilangan-bulat-2.html"]];
 
 //bilangan pecahan
 var bilpec = [["/2022/04/exercise-zone-bilangan-pecahan.html"],[],["/2022/04/hots-zone-bilangan-pecahan.html"]];
@@ -143,6 +143,9 @@ var inttritat = [[""],[],[]];
 //invers fungsi
 var invfung = [["/2020/03/exercise-zone-invers-fungsi.html"],["/2020/08/sbmptn-zone-invers-fungsi.html"],[]];
 
+//jarak, kecepatan dan percepatan
+var jarakkecepatanpercepatan = [[],[],["/2023/01/hots-zone-jarak-kecepatan-dan-percepatan.html"]];
+
 //kesebangunan
 var keseb = [["/2021/01/exercise-zone-kesebangunan.html"],[],[]];
 
@@ -174,7 +177,7 @@ var limtahi = [["/2022/10/exercise-zone-limit-tak-hingga.html","/2022/10/exercis
 var limtri = [["",""],["",""],[""]];
 
 //lingkaran
-var lingk = [["/2023/01/exercise-zone-lingkaran.html"],["/2020/09/sbmptn-zone-lingkaran.html"],["/2023/01/hots-zone-lingkaran.html"]];
+var lingk = [["/2021/01/exercise-zone-lingkaran.html"],["/2020/09/sbmptn-zone-lingkaran.html"],["/2020/09/hots-zone-lingkaran.html"]];
 
 //logaritma
 var loga = [["/2022/06/exercise-zone-logaritma.html","/2020/02/exercise-zone-logaritma-2.html","/2022/05/exercise-zone-logaritma-3.html","/2022/05/exercise-zone-logaritma-4.html"],["/2020/02/sbmptn-zone-logaritma.html"],["/2020/10/hots-zone-logaritma.html"]];
@@ -184,9 +187,6 @@ var logi = [["/2020/09/exercise%20zone%20logika%20matematika.html"],[],[]];
 
 //luas daerah di bawah kurva
 var luda = [["/2019/02/luas-daerah-di-bawah-kurva-soal-dan.html"],["/2020/10/sbmptn-zone-luas-daerah-di-bawah-kurva.html"],[]];
-
-//matematika terapan
-var matematikaterapan = [[],[],["/2023/01/hots-zone-jarak-kecepatan-dan-percepatan.html"]];
 
 //matriks
 var matr = [["/2022/11/exercise-zone-matriks.html","/2022/11/exercise-zone-matriks-2.html","/2022/11/exercise-zone-matriks-3.html","/2022/12/exercise-zone-matriks-4.html","/2022/12/exercise-zone-matriks-5.html","/2022/05/exercise-zone-matriks-6.html"],["/2022/12/sbmptn-zone-matriks.html"],[]];
@@ -204,7 +204,7 @@ var pangk = [["/2022/06/exercise-zone-pangkat-eksponen.html","/2022/05/exercise-
 var panvek = [["/2020/03/exercise-zone-panjang-vektor.html"],[],[]];
 
 //peluang
-var peluang = [["h/2022/11/exercise-zone-peluang.html","/2022/12/exercise-zone-peluang-2.html"],["/2020/09/sbmptn-zone-peluang.html"],["/2022/12/hots-zone-peluang.html"]];
+var peluang = [["h/2022/11/exercise-zone-peluang.html","/2017/05/peluang-soal-dan-pembahasan.html"],["/2020/09/sbmptn-zone-peluang.html"],["/2020/09/hots-zone-peluang.html"]];
 
 //peluang distribusi binomial
 var peldistbin = [["/2021/01/exercise-zone-peluang-distribusi.html"],[],[]];
@@ -231,7 +231,7 @@ var persbenak = [["/2021/05/exercise-zone-persamaan-bentuk-akar.html"],[],["/201
 var persdif = [[""],[],[]];
 
 //persegi
-var persegi = [[],[],["/2023/01/hots-zone-persegi.html"]];
+var persegi = [[],[],["/2017/12/persegi-soal-dan-pembahasan.html"]];
 
 //persamaan eksponen
 var persek = [["/2020/09/exercise-zone-persamaan-eksponen.html"],["/2020/03/sbmptn-zone-persamaan-eksponen.html"],["/2020/09/olimpiade-zone-persamaan-eksponen.html"]];
@@ -279,7 +279,7 @@ var rotasi = [["/2022/12/exercise-zone-rotasi.html"],[],[]];
 var satuanwaktu = [["/2023/01/exercise-zone-satuan-waktu.html"],[],[]];
 
 //segitiga
-var segitiga = [["/2020/09/exercise-zone-segitiga.html"],["/2020/09/sbmptn-zone-segitiga.html"],["/2020/09/hots-zone-segitiga.html"]];
+var segitiga = [["/2020/09/exercise-zone-segitiga.html"],["/2020/09/sbmptn-zone-segitiga.html"],["/2020/09/hots-zone-segitiga.html","/2023/01/hots-zone-segitiga.html"]];
 
 //segitiga siku-siku
 var segsik = [["/2017/06/segitiga-soal-dan-pembahasan.html"],[],[]];
@@ -303,7 +303,7 @@ var sukban = [["/2018/02/suku-banyak-polinom-soal-dan-pembahasan.html","/2019/07
 var tabu = [[""],[],[]];
 
 //translasi
-var tran = [["/2020/09/exercise-zone-translasi.html"],[],[]];
+var translasi = [["/2020/09/exercise-zone-translasi.html"],[],[]];
 //transformasi geometri
 var trangeo = [["/2020/08/exercise-zone-transformasi-geometri.html"],["/2017/11/transformasi-geometri-soal-dan.html"],[]];
 
